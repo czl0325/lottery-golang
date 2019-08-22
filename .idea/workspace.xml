@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="627eb911-923c-44c9-82ff-558614d1e3c5" name="Default Changelist" comment="" />
+    <list default="true" id="627eb911-923c-44c9-82ff-558614d1e3c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeetingLottery/controller/lotteryController.go" beforeDir="false" afterPath="$PROJECT_DIR$/MeetingLottery/controller/lotteryController.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MeetingLottery/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="308">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="e#14#58#0" expanded="true" />
               </folding>
@@ -25,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MeetingLottery/controller/lotteryController.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="208">
+              <caret line="44" column="47" lean-forward="true" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
               <folding>
                 <element signature="e#20#64#0" expanded="true" />
               </folding>
@@ -35,10 +38,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ticket/controller/lotteryController.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MeetingLottery/main_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="410">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding>
                 <element signature="e#14#71#0" expanded="true" />
               </folding>
@@ -91,8 +103,9 @@
       <list>
         <option value="$PROJECT_DIR$/MeetingLottery/lotteryController.go" />
         <option value="$PROJECT_DIR$/MeetingLottery/main.go" />
-        <option value="$PROJECT_DIR$/MeetingLottery/controller/lotteryController.go" />
         <option value="$PROJECT_DIR$/MeetingLottery/main_test.go" />
+        <option value="$PROJECT_DIR$/MeetingLottery/controller/lotteryController.go" />
+        <option value="$PROJECT_DIR$/ticket/controller/lotteryController.go" />
       </list>
     </option>
   </component>
@@ -129,12 +142,12 @@
             <path>
               <item name="lottery-golang" type="b2602c69:ProjectViewProjectNode" />
               <item name="lottery-golang" type="462c0819:PsiDirectoryNode" />
-              <item name="MeetingLottery" type="462c0819:PsiDirectoryNode" />
+              <item name="ticket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lottery-golang" type="b2602c69:ProjectViewProjectNode" />
               <item name="lottery-golang" type="462c0819:PsiDirectoryNode" />
-              <item name="MeetingLottery" type="462c0819:PsiDirectoryNode" />
+              <item name="ticket" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -145,6 +158,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -217,13 +231,22 @@
     <history-entry file="Test_in_lottery-golang_MeetingLottery - 2019.08.22 at 14h 28m 43s.xml">
       <configuration name="Test in lottery-golang/MeetingLottery" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="Test_in_lottery-golang_MeetingLottery - 2019.08.22 at 14h 29m 08s.xml">
+      <configuration name="Test in lottery-golang/MeetingLottery" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_in_lottery-golang_MeetingLottery - 2019.08.22 at 14h 29m 21s.xml">
+      <configuration name="Test in lottery-golang/MeetingLottery" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_in_lottery-golang_MeetingLottery - 2019.08.22 at 14h 31m 43s.xml">
+      <configuration name="Test in lottery-golang/MeetingLottery" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1981402" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1981402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -232,7 +255,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32961586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -268,10 +291,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MeetingLottery/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="e#14#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MeetingLottery/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="308">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="e#14#58#0" expanded="true" />
           </folding>
@@ -280,21 +313,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MeetingLottery/controller/lotteryController.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="208">
+          <caret line="44" column="47" lean-forward="true" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
           <folding>
             <element signature="e#20#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MeetingLottery/main_test.go">
+    <entry file="file://$PROJECT_DIR$/ticket/controller/lotteryController.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="e#14#71#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="449">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>

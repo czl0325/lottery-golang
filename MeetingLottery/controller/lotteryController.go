@@ -43,9 +43,6 @@ func (c *LotteryController) PostImport() string  {
 // GET http://localhost:8080/lucky
 // 获取中奖人员
 func (c *LotteryController) GetLucky() string {
-	mu.Lock()
-	defer mu.Unlock()
-
 	count := len(userList)
 	if count > 1 {
 		seed := time.Now().UnixNano()
