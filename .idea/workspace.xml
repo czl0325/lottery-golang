@@ -3,76 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="627eb911-923c-44c9-82ff-558614d1e3c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket/controller/lotteryController.go" beforeDir="false" afterPath="$PROJECT_DIR$/ticket/controller/lotteryController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/ticket/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MeetingLottery/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MeetingLottery/controller/lotteryController.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ticket/controller/lotteryController.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#20#85#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ticket/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="e#14#82#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MeetingLottery/main_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../github.com/kataras/iris/context/context.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9372">
-              <caret line="457" column="4" selection-start-line="457" selection-start-column="4" selection-end-line="457" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,18 +23,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/MeetingLottery/lotteryController.go" />
-        <option value="$PROJECT_DIR$/MeetingLottery/main.go" />
-        <option value="$PROJECT_DIR$/MeetingLottery/main_test.go" />
-        <option value="$PROJECT_DIR$/MeetingLottery/controller/lotteryController.go" />
-        <option value="$PROJECT_DIR$/ticket/controller/lotteryController.go" />
-        <option value="$PROJECT_DIR$/ticket/main.go" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -107,53 +33,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
+  <component name="ProjectId" id="1QgAWGLFzb6S795irJfvjK53Z8q" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lottery-golang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lottery-golang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lottery-golang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lottery-golang" type="462c0819:PsiDirectoryNode" />
-              <item name="MeetingLottery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lottery-golang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lottery-golang" type="462c0819:PsiDirectoryNode" />
-              <item name="MeetingLottery" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lottery-golang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lottery-golang" type="462c0819:PsiDirectoryNode" />
-              <item name="ticket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lottery-golang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lottery-golang" type="462c0819:PsiDirectoryNode" />
-              <item name="ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
@@ -188,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.Test in lottery-golang/MeetingLottery">
+  <component name="RunManager" selected="Go Build.go build lottery-golang/ticket">
     <configuration name="go build lottery-golang/MeetingLottery" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lottery-golang" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -197,11 +79,13 @@
       <directory value="$PROJECT_DIR$/MeetingLottery" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build lottery-golang/ticket" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="lottery-golang" />
       <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/MeetingLottery/main.go" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="lottery-golang" />
+      <directory value="$PROJECT_DIR$/ticket" />
       <method v="2" />
     </configuration>
     <configuration name="Test in lottery-golang/MeetingLottery" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -214,15 +98,14 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go Build.go build lottery-golang/ticket" />
       <item itemvalue="Go Build.go build lottery-golang/MeetingLottery" />
-      <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Test.Test in lottery-golang/MeetingLottery" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.Test in lottery-golang/MeetingLottery" />
-        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build lottery-golang/MeetingLottery" />
+        <item itemvalue="Go Test.Test in lottery-golang/MeetingLottery" />
       </list>
     </recent_temporary>
   </component>
@@ -243,84 +126,20 @@
       <configuration name="Test in lottery-golang/MeetingLottery" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20386267" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32961586" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32961586" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file:///usr/local/Cellar/go/1.12.7/libexec/src/time/time.go" />
-    <entry file="file:///usr/local/Cellar/go/1.12.7/libexec/src/builtin/builtin.go" />
-    <entry file="file://$PROJECT_DIR$/MeetingLottery/controller/lotteryController.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MeetingLottery/main_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/kataras/iris/context/context.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9372">
-          <caret line="457" column="4" selection-start-line="457" selection-start-column="4" selection-end-line="457" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticket/controller/lotteryController.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#20#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MeetingLottery/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticket/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="e#14#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

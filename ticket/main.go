@@ -8,7 +8,7 @@ import (
 
 func newApp() *iris.Application {
 	app := iris.New()
-	mvc.New(app.Party("/")).Handle(controller.LotteryController{})
+	mvc.New(app.Party("/")).Handle(&controller.LotteryController{})
 	return app
 }
 

@@ -36,3 +36,7 @@ func (c* LotteryController) Get() string {
 		"其余不中奖<br/>" +
 		"您的尾号是%d,恭喜您获得%s",code,prize)
 }
+
+func (c* LotteryController) GetString() string {
+	return "欢迎进入抽奖系统"
+}
