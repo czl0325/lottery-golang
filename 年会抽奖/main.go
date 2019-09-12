@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/kataras/iris"
 	"github.com/kataras/iris/mvc"
-	"lottery-golang/MeetingLottery/controller"
+	"lottery-golang/年会抽奖/controller"
 )
 
 func newApp() *iris.Application {

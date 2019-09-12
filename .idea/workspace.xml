@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="627eb911-923c-44c9-82ff-558614d1e3c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeetingLottery/controller/lotteryController.go" beforeDir="false" afterPath="$PROJECT_DIR$/年会抽奖/controller/lotteryController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeetingLottery/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/年会抽奖/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeetingLottery/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/年会抽奖/main_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket/controller/lotteryController.go" beforeDir="false" afterPath="$PROJECT_DIR$/ticket/controller/lotteryController.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/ticket/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +53,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -70,7 +72,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build lottery-golang/ticket">
+  <component name="RunManager" selected="Go Build.微信摇一摇">
+    <configuration name="微信摇一摇" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="lottery-golang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/微信摇一摇/main.go" />
+      <package value="lottery-golang/微信摇一摇" />
+      <directory value="$PROJECT_DIR$/微信摇一摇" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build lottery-golang/年会抽奖" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lottery-golang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/年会抽奖/main.go" />
+      <package value="lottery-golang/年会抽奖" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build lottery-golang/支付宝五福" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lottery-golang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/支付宝五福/main.go" />
+      <package value="lottery-golang/支付宝五福" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build lottery-golang/MeetingLottery" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lottery-golang" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -100,31 +129,20 @@
     <list>
       <item itemvalue="Go Build.go build lottery-golang/ticket" />
       <item itemvalue="Go Build.go build lottery-golang/MeetingLottery" />
+      <item itemvalue="Go Build.go build lottery-golang/年会抽奖" />
+      <item itemvalue="Go Build.go build lottery-golang/支付宝五福" />
+      <item itemvalue="Go Build.微信摇一摇" />
       <item itemvalue="Go Test.Test in lottery-golang/MeetingLottery" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.微信摇一摇" />
+        <item itemvalue="Go Build.go build lottery-golang/支付宝五福" />
+        <item itemvalue="Go Build.go build lottery-golang/年会抽奖" />
         <item itemvalue="Go Build.go build lottery-golang/MeetingLottery" />
         <item itemvalue="Go Test.Test in lottery-golang/MeetingLottery" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Test_in_lottery-golang_MeetingLottery - 2019.08.22 at 14h 27m 38s.xml">
-      <configuration name="Test in lottery-golang/MeetingLottery" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_in_lottery-golang_MeetingLottery - 2019.08.22 at 14h 28m 43s.xml">
-      <configuration name="Test in lottery-golang/MeetingLottery" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_in_lottery-golang_MeetingLottery - 2019.08.22 at 14h 29m 08s.xml">
-      <configuration name="Test in lottery-golang/MeetingLottery" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_in_lottery-golang_MeetingLottery - 2019.08.22 at 14h 29m 21s.xml">
-      <configuration name="Test in lottery-golang/MeetingLottery" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test_in_lottery-golang_MeetingLottery - 2019.08.22 at 14h 31m 43s.xml">
-      <configuration name="Test in lottery-golang/MeetingLottery" configurationId="GoTestRunConfiguration" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
