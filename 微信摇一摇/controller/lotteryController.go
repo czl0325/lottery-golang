@@ -37,7 +37,7 @@ type gift struct {
 	rateMax  int      // 小于，中奖的最大号码,0-10000
 }
 
-var gifts []*gift
+var gifts = []*gift{}
 func InitGifts() {
 	rateStart := 1
 	names := [...]string{"虚拟币", "优惠券", "实物小奖", "实物大奖"}
@@ -59,7 +59,7 @@ func InitGifts() {
 			gift.rateMin = 0
 			gift.rateMax = 0
 		}
-		gifts = append(gifts, gift)
+		gifts = append(gifts, &gift)
 	}
 	fmt.Printf("%v", gifts)
 }
