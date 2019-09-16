@@ -88,6 +88,14 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build lottery-golang/MeetingLottery" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lottery-golang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/MeetingLottery/main.go" />
+      <directory value="$PROJECT_DIR$/MeetingLottery" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build lottery-golang/支付宝五福" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lottery-golang" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -95,14 +103,6 @@
       <filePath value="$PROJECT_DIR$/支付宝五福/main.go" />
       <package value="lottery-golang/支付宝五福" />
       <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build lottery-golang/MeetingLottery" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lottery-golang" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$/MeetingLottery/main.go" />
-      <directory value="$PROJECT_DIR$/MeetingLottery" />
       <method v="2" />
     </configuration>
     <configuration name="go build lottery-golang/ticket" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -127,14 +127,12 @@
       <item itemvalue="Go Build.go build lottery-golang/ticket" />
       <item itemvalue="Go Build.go build lottery-golang/MeetingLottery" />
       <item itemvalue="Go Build.go build lottery-golang/年会抽奖" />
-      <item itemvalue="Go Build.go build lottery-golang/支付宝五福" />
       <item itemvalue="Go Build.微信摇一摇" />
       <item itemvalue="Go Test.Test in lottery-golang/MeetingLottery" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.微信摇一摇" />
-        <item itemvalue="Go Build.go build lottery-golang/支付宝五福" />
         <item itemvalue="Go Build.go build lottery-golang/年会抽奖" />
         <item itemvalue="Go Build.go build lottery-golang/MeetingLottery" />
         <item itemvalue="Go Test.Test in lottery-golang/MeetingLottery" />

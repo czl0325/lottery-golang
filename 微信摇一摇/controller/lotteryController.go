@@ -4,6 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/kataras/iris"
+	"math/rand"
+	"sync"
+	"time"
 )
 
 type LotteryController struct {
@@ -15,6 +18,30 @@ func (c *LotteryController) Get() string {
 	return string(b)
 }
 
+var gifts []*gift
+var mu sync.Mutex
+func (c* LotteryController) GetLucky() string {
+	mu.Lock()
+	defer mu.Unlock()
+
+	index := rand.New(rand.NewSource(time.Now().UnixNano())).Int31n(int32(rateMax))
+	for _, data := range gifts {
+		if index >= int32(data.rateMin) && index <= int32(data.rateMax) {
+			fmt.Printf("%v\n",data)
+			if data.left <= 0 {
+				fmt.Printf("奖品%s没有库存了\n",data.name)
+				return fmt.Sprintf("奖品%s没有库存了",data.name)
+			} else {
+				data.left = data.left - 1
+				fmt.Printf("抽中奖品%s库存还剩下%d\n",data.name,data.left)
+				return fmt.Sprintf("抽中奖品%s库存还剩下%d",data.name,data.left)
+			}
+		}
+	}
+	fmt.Printf("当前数字为%d,没有中奖\n",index)
+	return fmt.Sprintf("当前数字为%d,没有中奖",index)
+}
+
 const (
 	giftTypeCoin      = iota // 虚拟币
 	giftTypeCoupon           // 优惠券，不相同的编码
@@ -22,6 +49,7 @@ const (
 	giftTypeRealSmall        // 实物小奖
 	giftTypeRealLarge        // 实物大奖
 )
+var rateMax int
 
 // 奖品信息
 type gift struct {
@@ -37,7 +65,6 @@ type gift struct {
 	rateMax  int      // 小于，中奖的最大号码,0-10000
 }
 
-var gifts = []*gift{}
 func InitGifts() {
 	rateStart := 1
 	names := [...]string{"虚拟币", "优惠券", "实物小奖", "实物大奖"}
@@ -48,18 +75,19 @@ func InitGifts() {
 			gtype:    0,
 			data:     "",
 			datalist: nil,
-			total:    0,
-			left:     0,
-			inuse:    false,
+			total:    100,
+			left:     100,
+			inuse:    true,
 			rateMin:  rateStart,
 			rateMax:  rateStart + 100,
 		}
 		rateStart = gift.rateMax + 1
+		rateMax = gift.rateMax
 		if i == len(names)-1 {
 			gift.rateMin = 0
 			gift.rateMax = 0
 		}
 		gifts = append(gifts, &gift)
 	}
-	fmt.Printf("%v", gifts)
+	fmt.Printf("%v", &gifts)
 }
