@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="627eb911-923c-44c9-82ff-558614d1e3c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信摇一摇/controller/lotteryController.go" beforeDir="false" afterPath="$PROJECT_DIR$/微信摇一摇/controller/lotteryController.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.微信摇一摇">
+  <component name="RunManager" selected="Go Build.go build lottery-golang/微博抢红包">
     <configuration name="微信摇一摇" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="lottery-golang" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -85,6 +84,15 @@
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/年会抽奖/main.go" />
       <package value="lottery-golang/年会抽奖" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build lottery-golang/微博抢红包" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lottery-golang" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/微博抢红包/main.go" />
+      <package value="lottery-golang/微博抢红包" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -129,9 +137,11 @@
       <item itemvalue="Go Build.go build lottery-golang/年会抽奖" />
       <item itemvalue="Go Build.微信摇一摇" />
       <item itemvalue="Go Test.Test in lottery-golang/MeetingLottery" />
+      <item itemvalue="Go Build.go build lottery-golang/微博抢红包" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build lottery-golang/微博抢红包" />
         <item itemvalue="Go Build.微信摇一摇" />
         <item itemvalue="Go Build.go build lottery-golang/年会抽奖" />
         <item itemvalue="Go Build.go build lottery-golang/MeetingLottery" />
